@@ -24,7 +24,7 @@
             android:id="@+id/btnBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back to main page"/>
+            android:text="@string/back_to_main_page"/>
     </LinearLayout>
 
 </LinearLayout>

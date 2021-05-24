@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Modules</string>
+    <string name="Web">C230 Web Appln Development in php</string>
+    <string name="OS">C228 Operating Systems Security</string>
+    <string name="Networking">C238 Intelligent Networks</string>
+    <string name="Forensics">C331 Digital Security and Forensics</string>
+    <string name="Mobile">C346 Mobile App Development</string>
+    <string name="view_by_page">View by page</string>
+    <string name="next">Next</string>
+    <string name="back_to_main_page">Back to main page</string>
 </resources>

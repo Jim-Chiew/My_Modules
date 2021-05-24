@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         tvWeb = findViewById(R.id.tvWeb);
         tvOS = findViewById(R.id.tvOS);
-        tvNetwork = findViewById(R.id.tvForensic);
+        tvNetwork = findViewById(R.id.tvNetwork);
         tvForensic = findViewById(R.id.tvForensic);
         tvMobile = findViewById(R.id.tvMobile);
         btnViewByPage = findViewById(R.id.btnViewByPage);

@@ -12,7 +12,7 @@
         android:id="@+id/tvWeb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C230 Web Appln Development in php"
+        android:text="@string/Web"
         android:textSize="20sp"
         />
 
@@ -20,7 +20,7 @@
         android:id="@+id/tvOS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C228 Operating Systems Security"
+        android:text="@string/OS"
         android:textSize="20sp"
         />
 
@@ -28,7 +28,7 @@
         android:id="@+id/tvNetwork"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C238 Intelligent Networks"
+        android:text="@string/Networking"
         android:textSize="20sp"
         />
 
@@ -36,7 +36,7 @@
         android:id="@+id/tvForensic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C331 Digital Security and Forensics"
+        android:text="@string/Forensics"
         android:textSize="20sp"
         />
 
@@ -44,7 +44,7 @@
         android:id="@+id/tvMobile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C346 Mobile App Development"
+        android:text="@string/Mobile"
         android:textSize="20sp"
         />
 
@@ -52,5 +52,5 @@
         android:id="@+id/btnViewByPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View by page"/>
+        android:text="@string/view_by_page"/>
 </LinearLayout>
