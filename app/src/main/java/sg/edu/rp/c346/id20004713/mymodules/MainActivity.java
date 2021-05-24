@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvNetwork;
     TextView tvForensic;
     TextView tvMobile;
+    Button btnViewByPage;
 
 
     @Override
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         tvNetwork = findViewById(R.id.tvForensic);
         tvForensic = findViewById(R.id.tvForensic);
         tvMobile = findViewById(R.id.tvMobile);
+        btnViewByPage = findViewById(R.id.btnViewByPage);
 
         tvWeb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +95,23 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("sam", 1);
                 intent.putExtra("credit", 4);
                 intent.putExtra("venue", "E62E");
+                startActivity(intent);
+            }
+        });
+
+        btnViewByPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MyOwnAddOn.class);
+                String[] code = {"C203", "C228", "C328", "C331", "C346"};
+                String[] name = {"Web Appln Development in php", "Operating Systems Security",
+                        "Intelligent Networks", "Digital Security and Forensics",
+                        "Mobile App Development"};
+                String[] venue = {"W67L", "E62L", "E62C", "E61J", "E62E"};
+
+                intent.putExtra("code", code);
+                intent.putExtra("name", name);
+                intent.putExtra("venue", venue);
                 startActivity(intent);
             }
         });
